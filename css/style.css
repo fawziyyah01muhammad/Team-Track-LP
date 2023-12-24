@@ -1,0 +1,478 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+button{
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    margin: 20px 0;
+}
+.trans-btn{
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}
+.header-bg{
+    background:linear-gradient(#ff9f6bed, #ff9f6bed), url(../img/NETWORKING.jfif);
+    width: 100%;
+    max-height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.header-bg .curve{
+position: absolute;
+bottom: 0%;
+}
+
+.header-info{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 150px;
+    gap: 50px;
+    font-family: 'Fraunces';
+}
+.info{
+    display: flex;
+    gap: 20px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.header-icons{
+    display: flex;
+}
+.header-icons i{
+margin: 0 2px;
+width: 30px;
+height: 30px;
+background-color: white;
+border-radius: 50%;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+
+.header-text{
+    color: white;
+    margin-top: 100px;
+}
+.header-text h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.header-info img{
+    width: 420px;
+    height: 420px;
+    margin-top: 20px;
+    z-index: 6;
+}
+@media screen and (min-width:250px) and (max-width:299px){
+    .header-bg{
+        height: 100%;
+    }
+.header-info{
+    flex-direction: column;
+    padding: 15px 20px;
+    gap: 20px;
+}
+.info{
+    flex-direction: column;
+}
+.header-info img{
+    width: 150px;
+    height: 200px;
+    margin-top: 0px;
+}
+.header-text{
+    margin-top: 20px;
+    padding: 0;
+}
+.header-text h1{
+    font-size: 25px;
+    font-weight: 900;
+ }
+button{
+    margin: 10px 0;
+}
+}
+
+@media screen and (min-width:300px) and (max-width:500px){
+    .header-info{
+        padding: 15px 20px;
+        gap: 20px;
+    }
+    .header-info img{
+        width: 150px;
+        height: 200px;
+        margin-top: 50px;
+    }
+    .info p{
+        font-size: 8px;
+        display: flex;
+        gap: 3px;
+    }
+    .header-icons i{
+        width: 25px;
+        height: 25px;
+       font-size: 14px;
+        }
+        .header-text{
+            margin-top: 20px;
+            padding: 0;
+        }
+        .header-text h1{
+           font-size: 20px;
+           font-weight: 900;
+        }
+        .header-text p{
+            font-size: 10px;
+        }
+        button{
+            padding: 7px 10px;
+            border-radius: 10px;
+            margin: 10px 0;
+            font-size: 5px;
+        }
+        .trans-btn{
+            margin-top: 5px;
+        }
+}
+
+@media screen and (min-width:550px) and (max-width:970px){
+    .header-info{
+        display: flex;
+        justify-content: space-between;
+        padding: 15px 35px;
+        gap: 50px;
+        font-family: 'Fraunces';
+    }
+}
+
+.section1{
+   padding: 80px 150px;
+   margin-top: 3px;
+    text-align: center;
+    /* box-shadow: 20px 0 20px 0 whitesmoke; */
+}
+.section1 h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+    padding: 5px 0;
+}
+.section1 p{
+    font-size: 19px;
+    padding-bottom: 20px;
+}
+.section1-col{
+    display: flex;
+    gap: 20px;
+}
+
+.section1-col i{
+margin: 10px auto;
+width: 60px;
+height: 60px;
+background-color: whitesmoke;
+border-radius: 50%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-size: 30px;
+}
+.section1-col h3{
+font-size: 20px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+padding: 5px;
+}
+.section1-col p{
+    padding: 0;
+    font-size: 14px;
+}
+.section1 hr{
+    margin: 70px 0 0 0;
+    border: none;
+    width: 100%;
+    height: 2px;
+    background-color: whitesmoke;
+}
+
+@media screen and (min-width:270px) and (max-width:500px){
+    .section1-col{
+       flex-direction: column;
+        gap: 20px;
+    }
+    .section1{
+        padding: 50px 30px;
+        text-align: left;
+     }
+     .section1-col i{
+        margin: 10px;
+        }
+        .section1 h1{
+            font-size: 28px;
+        }
+        .section1 p{
+            font-size: 17px;
+        }
+}
+
+@media screen and (min-width:500px) and (max-width:970px){
+    .section1{
+        padding: 80px 35px;
+     }
+     .section1-col h3{
+        font-size: 15px;
+     }
+}
+
+.section2{
+    padding: 80px 150px;
+     text-align: center;
+     box-shadow: 20px 0 20px 0 whitesmoke;
+ }
+ .section2 h1{
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-size: 35px;
+     padding: 5px 0;
+ }
+ .section2 p{
+     font-size: 19px;
+     padding-bottom: 20px;
+ }
+ .section2-col{
+     display: flex;
+     gap: 70px;
+ }
+ .section2-col2{
+    margin-top: 50px;
+ }
+ .section2-row{
+    display: flex;
+    text-align: left;
+    gap: 20px;
+}
+ .section2-col i{
+ margin: 10px auto;
+ width: 60px;
+ height: 60px;
+ background-color: whitesmoke;
+ border-radius: 50%;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ font-size: 25px;
+ }
+ .section2-col h3{
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 5px 0;
+    font-style: bold;
+    }
+    .section2-col p{
+        padding: 0;
+        font-size: 14px;
+    }
+    div .small{
+        width: 50px;
+        height: 2px;
+        background-color: #ff9f6bed;
+        margin: auto;
+        border: none;
+    }
+    @media screen and (min-width:250px) and (max-width:299px){
+        .section2{
+            padding: 50px 30px;
+         }
+         .section2 h1 {
+            font-size: 20px;
+        }
+        .section2 p{
+            font-size: 14px;
+        }
+        .section2-col{
+           flex-direction: column;
+            gap: 10px;
+        }
+        .section2-row{
+            margin-top: 20px;
+        }
+    .section2-col img {
+        width: 230px;
+        height: 330px;
+    }        
+}
+    @media screen and (min-width:300px) and (max-width:500px){
+        .section2{
+            padding: 50px 30px;
+         }
+         .section2 h1{  
+         font-size: 27px;
+        }
+        .section2 p{
+            font-size: 16px;
+        }
+        .section2-col{
+           flex-direction: column;
+            gap: 10px;
+        }
+        .section2-col img{
+            width: 320px;
+            height: 370px;
+        }
+        .section2-row{
+            margin-top: 20px;
+        }
+    }
+    
+    @media screen and (min-width:500px) and (max-width:970px){
+        .section2{
+            padding: 80px 35px;
+             text-align: center;
+             box-shadow: 20px 0 20px 0 whitesmoke;
+         }
+         .section2-col img{
+            width: 300px;
+            height: 420px;
+        }
+        .section2-row{
+           margin: 10px 0;
+        }
+        .section2-row h3{
+            font-size: 20px;
+        }
+
+    }
+
+    .section3{
+        padding: 80px 100px;
+        margin-top: 3px;
+         box-shadow: 20px 0 20px 0 whitesmoke;
+     }
+     .section3 h1{
+         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+         font-size: 35px;
+         padding: 5px 0;
+     }
+     .section3 p{
+         font-size: 19px;
+         padding-bottom: 20px;
+     }
+     .section3-col{
+        display: flex;
+     }
+     .section3-col img{
+        width: 180px;
+        height: 150px;
+     }
+     .section3-col p{
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 25px;
+     }
+
+     @media screen and (min-width:270px) and (max-width:500px){
+        .section3{
+            padding: 50px 20px;
+            margin-top: 3px;
+             box-shadow: 20px 0 20px 0 whitesmoke;
+         }
+         .section3-col{
+           flex-direction: column;
+         }
+         .section3-col img{
+            width: 100%;
+            height: 100%;
+            margin: auto;
+         }
+     }
+     
+     @media screen and (min-width:500px) and (max-width:970px){
+        .section3{
+            padding: 80px 35px;
+         }
+         .section3-col img{
+            width: 135px;
+            height: 100px;
+         }
+     }
+
+     .footer{
+        display: flex;
+        padding: 50px;
+        background-color: #ff9f6bc0;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .footer-row{
+        flex-basis: 31%;
+    }
+    .footer-row h2{
+        font-size: 40px;
+    }
+    .footer-row ul li{
+        /* list-style: none; */
+        padding: 5px;
+    }
+    .footer-row p{
+    padding: 7px 0;
+    font-size: 16px;
+    }
+    .footer-row p span{
+        font-style: bold;
+        font-weight: 700;
+    }
+    .footer-row ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    }
+    .footer input{
+        width: 100%;
+        height: 30px;
+        padding: 7px 5px;
+        margin: 5px 0;
+        border: 1px solid white;
+        background-color: transparent;
+        border-radius: 10px;
+    }
+    .footer button{
+        width: 200px;
+        height: 40px;
+        border-radius: 8px;
+        margin: 10px 0;
+    }
+    .footer input:focus{
+        outline: none;
+    }
+
+    @media screen and (min-width:270px) and (max-width:500px){
+        .footer{
+           flex-direction: column;
+        }
+        .footer-row h2{
+            font-size: 30px;
+        }
+        .footer-row{
+            flex-basis: 31%;
+            margin: 20px 0;
+        }
+    }
+
+    @media screen and (min-width:500px) and (max-width:970px){
+        .footer-row{
+            flex-basis: 35%;
+        }
+        .footer-row ul li{
+            /* list-style: none; */
+            padding: 5px;
+            margin-left: 30px;
+        }
+        .footer-row h2{
+            font-size: 30px;
+        }
+}
+
